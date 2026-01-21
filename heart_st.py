@@ -185,7 +185,7 @@ def get_health_tips(data):
 # -----------------------------------------------------------------------------
 # 4. PAGE LAYOUT: TABS
 # -----------------------------------------------------------------------------
-st.markdown('<div class="header-container"><div class="header-title">🫀 HeartGuard Pro</div><p>AI-Powered Cardiac Risk Analytics & Visualization Engine</p></div>', unsafe_allow_html=True)
+st.markdown('<div class="header-container"><div class="header-title">🫀 HeartGuard Pro</div><p>AI-Powered Cardiac Risk Analytics & Visualization Engine \n\t\t\t~~made by Pratham Goyal</p></div>', unsafe_allow_html=True)
 
 tab_pred, tab_batch, tab_about = st.tabs(["🔍 Individual Analysis", "📂 Batch Processing", "ℹ️ Model Specs"])
 
@@ -381,4 +381,5 @@ Encoder:   One-Hot Encoding (Categorical)
         st.write("- **Oldpeak:** ST depression induced by exercise relative to rest.")
         st.write("- **ST Slope:** The slope of the peak exercise ST segment.")
         st.write("- **FastingBS:** Fasting Blood Sugar > 120 mg/dl.")
+
 
