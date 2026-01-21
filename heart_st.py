@@ -371,6 +371,7 @@ with tab_about:
         st.markdown("**Model Specs**")
         st.code("""
 Algorithm: Support Vector Classifier (SVC)
+Accuracy: 88.2%
 Kernel:    Radial Basis Function (RBF)
 Scaler:    StandardScaler (Z-Score Normalization)
 Encoder:   One-Hot Encoding (Categorical)
@@ -380,3 +381,4 @@ Encoder:   One-Hot Encoding (Categorical)
         st.write("- **Oldpeak:** ST depression induced by exercise relative to rest.")
         st.write("- **ST Slope:** The slope of the peak exercise ST segment.")
         st.write("- **FastingBS:** Fasting Blood Sugar > 120 mg/dl.")
+
